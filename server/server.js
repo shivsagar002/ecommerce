@@ -17,7 +17,7 @@ const commonFeatureRouter = require("./routes/common/feature-routes");
 
 require('dotenv').config();
 
-db_url = process.env.db_url;
+db_url = "mongodb+srv://shivsagar002:shivsagar@cluster0.5l2l38z.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 
 mongoose
   .connect(db_url)
