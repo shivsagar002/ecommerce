@@ -30,6 +30,7 @@ const PORT = process.env.PORT || 5000;
 const allowedOrigins = [
   process.env.localUrl,                   // local development
   process.env.DeploymentUrl,     // your deployed frontend
+  process.env.DevBackendUrl,     // your deployed backend
 ];
 
 app.use(
